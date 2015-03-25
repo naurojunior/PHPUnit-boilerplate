@@ -13,7 +13,7 @@ PHPUnit
 * **2** - Acessar: https://phar.phpunit.de/phpunit-4.5.0.phar e realizar o download de "phpunit-skelgen.phar" 
 
 Links de: https://phar.phpunit.de/
-Caso não consiga realizar o donwload, os .phar estarão disponíveis na pasta "phar"
+Caso não consiga realizar o download, os .phar estarão disponíveis na pasta "phar"
 
 NetBeans (8.0)
 * **1** Ferramentas -> Plugins -> Instalar o plugin "PHPUnit" no Netbeans;
