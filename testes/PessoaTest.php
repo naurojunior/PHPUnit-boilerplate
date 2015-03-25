@@ -32,7 +32,7 @@ class PessoaTest extends PHPUnit_Framework_TestCase {
      */
     public function testExcluir() {
         // Remove the following lines when you implement this test.
-        $this->assertNotEmpty($this->object);
+        $this->assertTrue($this->object->excluir());
     }
 
     /**
@@ -41,7 +41,7 @@ class PessoaTest extends PHPUnit_Framework_TestCase {
      */
     public function testRenovar() {
         // Remove the following lines when you implement this test.
-        $this->assertNull($this->object->renovar(0, 0));
+        $this->assertNotNull($this->object->renovar(0, 0));
     }
 
 }

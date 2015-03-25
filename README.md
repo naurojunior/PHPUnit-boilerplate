@@ -3,6 +3,11 @@ Estrutura básica para iniciar utilizando o PHPUnit (com NetBeans)
 
 Passos:
 
+* Configuração inicial para executar o PHP e autocompletar as funções do PHPUnit:
+- Ferramentas - Opções - PHP:
+- Na aba geral, achar o Interpretador do PHP 5 (provável que esteja em  C:\xampp\php\php.exe )
+- Abaixo, no "Caminho de Inclusão Global", clicar em Adicionar Pasta e adicionar a pasta do PHPUnit. (Provável em: C:\xampp\php\pear\PHPUnit)
+	
 PHPUnit
 * 1 - Acessar: https://phar.phpunit.de/phpunit-skelgen-2.0.1.phar e realizar o download de "phpunit.phar" 
 * 2 - Acessar: https://phar.phpunit.de/phpunit-4.5.0.phar e realizar o download de "phpunit-skelgen.phar" 
@@ -24,3 +29,8 @@ NetBeans (8.0)
 * 3.6 - Selecionar "Executar todos os Arquivos de *Teste usando PHPUnit
 
 * 4 - Para configurar as pastas para Autoload, acessar "bootstrap.php" na pasta "test-config" e no "AutoLoader::registerDirectory('../');" alterar para a pasta com as classes;
+
+* 5 - Selecionar as classes a serem testadas, clicar com o botão direito em cima delas - Ferramentas - Criar Testes
+
+* 6 - alt + F6 para executar os testes
+

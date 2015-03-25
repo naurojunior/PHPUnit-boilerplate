@@ -14,11 +14,11 @@
 class Pessoa {
     
     public function excluir(){
-        return 3;
+        return true;
     }
     
     public function renovar($v, $y){
-        return 1-2;
+        return null;
     }
     //put your code here
 }
